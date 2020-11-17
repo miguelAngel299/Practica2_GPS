@@ -16,7 +16,7 @@ services:
         volumes:
 	        - "db-data:/data/db"
     order:
-        image: miguelangel299/practica2_gps:order
+        image: paberlo/p1gps:order
         depends_on:
 	        - "mongo"
         deploy:
