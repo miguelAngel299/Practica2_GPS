@@ -2,7 +2,7 @@ import com.microsoft.appinsights.*
 
 buildscript {
     repositories {
-        maven { url "http://repo.spring.io/libs-release" }
+        maven { url "https://repo.spring.io/libs-release" }
         maven { url "http://gradle.artifactoryonline.com/gradle/libs/" }
         mavenLocal()
         mavenCentral()
